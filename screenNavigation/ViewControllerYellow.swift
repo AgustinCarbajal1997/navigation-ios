@@ -9,21 +9,19 @@ import UIKit
 
 class ViewControllerYellow: UIViewController {
 
+    var titulo: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //validacion para el caso de que no venga el string
+        if let tituloFinal = titulo {
+            self.title = tituloFinal
+        }
+        //self.view.backgroundColor = .red
     }
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

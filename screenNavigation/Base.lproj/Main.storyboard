@@ -88,7 +88,7 @@
             </objects>
             <point key="canvasLocation" x="132" y="-27"/>
         </scene>
-        <!--Verde-->
+        <!--View Controller Green-->
         <scene sceneID="QcC-Uu-9Wc">
             <objects>
                 <viewController id="263-Wv-XfT" customClass="ViewControllerGreen" customModule="screenNavigation" customModuleProvider="target" sceneMemberID="viewController">
@@ -98,7 +98,7 @@
                         <viewLayoutGuide key="safeArea" id="ahF-fq-Q9h"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Verde" id="4hT-c2-Qpo">
+                    <navigationItem key="navigationItem" id="4hT-c2-Qpo">
                         <barButtonItem key="rightBarButtonItem" title="Rosa" id="2Vk-Es-8pj"/>
                     </navigationItem>
                 </viewController>
@@ -106,7 +106,7 @@
             </objects>
             <point key="canvasLocation" x="1018" y="-975"/>
         </scene>
-        <!--Rosa-->
+        <!--View Controller Pink-->
         <scene sceneID="foc-yB-vpC">
             <objects>
                 <viewController id="JME-0o-eR9" customClass="ViewControllerPink" customModule="screenNavigation" customModuleProvider="target" sceneMemberID="viewController">
@@ -116,7 +116,7 @@
                         <viewLayoutGuide key="safeArea" id="V9A-Gu-wiw"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Rosa" id="VVH-j6-M2Z">
+                    <navigationItem key="navigationItem" id="VVH-j6-M2Z">
                         <barButtonItem key="rightBarButtonItem" title="Amarillo" id="A1x-sB-csy"/>
                     </navigationItem>
                 </viewController>
@@ -124,7 +124,7 @@
             </objects>
             <point key="canvasLocation" x="1018" y="-14"/>
         </scene>
-        <!--Amarillo-->
+        <!--View Controller Yellow-->
         <scene sceneID="WtC-kQ-a7K">
             <objects>
                 <viewController id="6zv-oi-Jp2" customClass="ViewControllerYellow" customModule="screenNavigation" customModuleProvider="target" sceneMemberID="viewController">
@@ -134,7 +134,7 @@
                         <viewLayoutGuide key="safeArea" id="ZwA-tW-TIz"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Amarillo" id="NrX-KO-h4N"/>
+                    <navigationItem key="navigationItem" id="NrX-KO-h4N"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zlh-cs-jfL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
