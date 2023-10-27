@@ -32,33 +32,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIc-LA-6no">
-                                <rect key="frame" x="135.66666666666666" y="404" width="121.99999999999997" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ian-AJ-htb">
+                                <rect key="frame" x="140" y="371" width="108" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ir a rosa">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcF-SY-FIG">
+                                <rect key="frame" x="121" y="475" width="146" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ir a amarillo">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIc-LA-6no">
+                                <rect key="frame" x="133" y="272" width="122" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Ir a verde">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="263-Wv-XfT" kind="show" id="9ha-tR-bgM"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
-                        <constraints>
-                            <constraint firstItem="rIc-LA-6no" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BbB-d6-aRq"/>
-                            <constraint firstItem="rIc-LA-6no" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U6f-6K-0bM"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Azul" id="Giq-fb-nQd">
                         <barButtonItem key="backBarButtonItem" title="Menu" id="g7g-7a-jYO"/>
-                        <barButtonItem key="rightBarButtonItem" title="Verde" id="VHn-PK-A9H">
-                            <connections>
-                                <segue destination="263-Wv-XfT" kind="show" id="ab0-Gi-hBG"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Verde" id="VHn-PK-A9H"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -72,38 +82,16 @@
                     <view key="view" contentMode="scaleToFill" id="Dgu-4b-rxR">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNm-R3-gBa">
-                                <rect key="frame" x="142.66666666666666" y="404" width="107.66666666666666" height="44"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Ir a pink">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="JME-0o-eR9" kind="show" id="BGN-0V-vzy"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ahF-fq-Q9h"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
-                        <constraints>
-                            <constraint firstItem="NNm-R3-gBa" firstAttribute="centerY" secondItem="Dgu-4b-rxR" secondAttribute="centerY" id="NuC-ZC-eH2"/>
-                            <constraint firstItem="NNm-R3-gBa" firstAttribute="centerX" secondItem="Dgu-4b-rxR" secondAttribute="centerX" id="iZy-Cl-o6g"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Verde" id="4hT-c2-Qpo">
-                        <barButtonItem key="rightBarButtonItem" title="Rosa" id="2Vk-Es-8pj">
-                            <connections>
-                                <segue destination="JME-0o-eR9" kind="show" id="vtM-9W-SoH"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Rosa" id="2Vk-Es-8pj"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R5w-x2-5ib" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907.63358778625945" y="-18.30985915492958"/>
+            <point key="canvasLocation" x="1018" y="-975"/>
         </scene>
         <!--Rosa-->
         <scene sceneID="foc-yB-vpC">
@@ -112,38 +100,16 @@
                     <view key="view" contentMode="scaleToFill" id="LSC-gr-Mgy">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Sf-W5-4zU">
-                                <rect key="frame" x="123.66666666666669" y="404" width="146" height="44"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Ir a amarillo">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="6zv-oi-Jp2" kind="show" id="K14-0s-UYE"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="V9A-Gu-wiw"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
-                        <constraints>
-                            <constraint firstItem="5Sf-W5-4zU" firstAttribute="centerY" secondItem="LSC-gr-Mgy" secondAttribute="centerY" id="P8V-lc-aTR"/>
-                            <constraint firstItem="5Sf-W5-4zU" firstAttribute="centerX" secondItem="LSC-gr-Mgy" secondAttribute="centerX" id="zfl-Pk-VKT"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Rosa" id="VVH-j6-M2Z">
-                        <barButtonItem key="rightBarButtonItem" title="Amarillo" id="A1x-sB-csy">
-                            <connections>
-                                <segue destination="6zv-oi-Jp2" kind="show" id="pYU-Z8-Te4"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Amarillo" id="A1x-sB-csy"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cN9-60-D6E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1699" y="-14"/>
+            <point key="canvasLocation" x="1018" y="-14"/>
         </scene>
         <!--Amarillo-->
         <scene sceneID="WtC-kQ-a7K">
@@ -152,36 +118,16 @@
                     <view key="view" contentMode="scaleToFill" id="HSO-Z7-KGo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFS-XN-OEr">
-                                <rect key="frame" x="158.66666666666666" y="404" width="76" height="44"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Listo">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                </buttonConfiguration>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ZwA-tW-TIz"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
-                        <constraints>
-                            <constraint firstItem="RFS-XN-OEr" firstAttribute="centerX" secondItem="HSO-Z7-KGo" secondAttribute="centerX" id="Aj9-13-E4f"/>
-                            <constraint firstItem="RFS-XN-OEr" firstAttribute="centerY" secondItem="HSO-Z7-KGo" secondAttribute="centerY" id="cTr-1Q-cLb"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Amarillo" id="NrX-KO-h4N"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zlh-cs-jfL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2553" y="-14"/>
+            <point key="canvasLocation" x="1018" y="796"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="K14-0s-UYE"/>
-        <segue reference="BGN-0V-vzy"/>
-        <segue reference="9ha-tR-bgM"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
